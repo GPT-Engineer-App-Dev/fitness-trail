@@ -11,6 +11,7 @@ const Index = () => {
           <Image src="/images/fitness-hero.jpg" alt="Fitness Hero" />
         </Box>
         <Button as={Link} to="/dashboard" colorScheme="teal" size="lg">Get Started</Button>
+        <Button as={Link} to="/log-workout" colorScheme="teal" size="lg">Log Workout</Button>
       </VStack>
     </Container>
   );
